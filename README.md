@@ -7,7 +7,7 @@ This analysis aims to provide a comprehensive and user-friendly interface for ac
 
 ![Details dashboard for bank loan report](https://github.com/user-attachments/assets/098ffe60-b5e7-4943-b8b4-3e8d0e115829)
 
-### Key Performance Indicators, KPI
+### Key Performance Indicators, KPIs
 The following Key Performance Indicators (KPIs) were used for the dashboards with charts and maps to show trend;
 - Total Loan Applications: We need to calculate the total number of loan applications received during a specified period. Additionally, it is essential to monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).
 - Total Funded Amount: Understanding the total amount of funds disbursed as loans is crucial. We also want to keep an eye on the MTD Total Funded Amount and analyse the Month-over-Month (MoM) changes in this metric.
@@ -43,5 +43,5 @@ The analysis result are summarized as follows:
 1. Loan collection increased through the year from January to December
 2. Total Amount collected from customers increased through the period
 
-### Limitation
+### Limitations
 I had to change the time zone for the issue date column to be able to parse the date into PostgreSQL database.
